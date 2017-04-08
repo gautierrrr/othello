@@ -9,6 +9,8 @@ int main()
 {
     Damier plateau;
     Console *pConsole;
+    Coordonne ma_case;
+    int tmp=1;
     int choix_menu;
     do
     {
@@ -30,11 +32,12 @@ int main()
             system("cls");
             pConsole->setColor(COLOR_GREEN);
             plateau.affichage_damier();
+            plateau.menu_de_jeu();
             do
             {
                 ///boucle de jeu
                 plateau.affichage_pion();//affiche les pions
-
+                ma_case = plateau.curseur(); // lance le curseur
              }
             while(tmp!=0);
             break;
@@ -43,6 +46,10 @@ int main()
         case '3':
             break;
         case '4':
+             system("cls");
+            plateau.affichage_regles();
+            pConsole->gotoLigCol(20,0);
+            system("PAUSE");
             break;
         case '0':
             system("cls");

@@ -37,6 +37,9 @@ public:
     // Methode
     void affichage_damier();
     void affichage_pion();
+    Coordonne curseur(); //methodes pour utiliser un curseur
+    void menu_de_jeu();
+    void affichage_regles();
 
 
     // Accesseurs

@@ -184,7 +184,125 @@ void Damier::affichage_pion()
     }
 }
 
+void Damier::affichage_regles()   //permet de lire un fichier txt contenant les règles du jeu
+{
+    ifstream regle("regle.txt"); //on ouvre le fichier en indiquant le chemin
+
+    if(regle)
+    {
+        string ligne;  //chaine qui va stocker la chaine lu (ici on lit le fichier ligne par ligne)
+
+        while(getline(regle,ligne))   //tant qu'on est pas a la fin du fichier
+        {
+            cout << ligne << endl;    //on affiche la ligne
+        }
+
+    }
+    else    //on test l'ouverture
+    {
+        cout << "ouverture impossible" << endl;
+
+    }
+
+}
 
 
+
+
+
+void Damier::menu_de_jeu()  //affichage du menu pendant les tours de jeu
+{
+    pConsole->gotoLigCol(5,40);
+    cout << "----------------  menu  ---------------" << endl;
+    pConsole->gotoLigCol(6,40);
+    cout << "---    z,q,s,d pour se deplacer     ---" << endl;
+    pConsole->gotoLigCol(7,40);
+    cout << "---   entree pour ajouter un pion   ---" << endl;
+    pConsole->gotoLigCol(8,40);
+    cout << "---echap pour sauvegarder et quitter---" << endl;
+    pConsole->gotoLigCol(9,40);
+    cout << "---------------------------------------" << endl;
+    pConsole->gotoLigCol(11,40);
+    if(m_cmptour%2==0)
+    {
+        cout << "noir";
+    }
+    if(m_cmptour%2==1)
+    {
+        cout << "blanc";
+    }
+}
+
+
+Coordonne Damier::curseur()
+{
+    Coordonne ma_case;
+    int lig=6;
+    int col=8;
+    int key=0;
+    pConsole->gotoLigCol(lig,col);
+    do
+    {
+        //si on appuye sur une touche
+        if(pConsole->isKeyboardPressed())
+        {
+            //on lit la valeur de la touche
+            key=pConsole->getInputKey();
+            if(key=='z')
+            {
+                if(lig>6)
+                {
+                    lig=lig-2;
+                    pConsole->gotoLigCol(lig,col);
+                }
+            }
+            if(key=='q')
+            {
+                if(col>8)
+                {
+                    col=col-3;
+                    pConsole->gotoLigCol(lig,col);
+                }
+            }
+            if(key=='s')
+            {
+                if(lig<20)
+                {
+                    lig=lig+2;
+                    pConsole->gotoLigCol(lig,col);
+                }
+            }
+            if(key=='d')
+            {
+                if(col<29)
+                {
+                    col=col+3;
+                    pConsole->gotoLigCol(lig,col);
+
+                }
+            }
+            if(key==13) //touche entrée
+            {
+                //on renvoie la position du curseur
+
+                ma_case.x = col;
+                ma_case.y = lig;
+                return ma_case;
+            }
+            if(key==27) //touche échap
+            {
+                // on renvoie la position du curseur
+                ma_case.x  = 1000;
+                ma_case.y = 1000;
+                return  ma_case;
+            }
+
+        }
+
+    }
+    while((key!=13)&&(key!=27));  //tant qu'on appuye pas sur entrée ou sur échap
+
+
+}
 
 
