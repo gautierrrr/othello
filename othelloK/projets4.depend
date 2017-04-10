@@ -1,0 +1,221 @@
+# depslib dependency file v1.0
+1491605390 source:d:\code blocks projet\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 d:\code blocks projet\projets4\console.h
+	<iostream>
+
+1492694030 source:d:\code blocks projet\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492695107 d:\code blocks projet\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492624228 d:\code blocks projet\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492622776 source:d:\code blocks projet\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492624228 source:d:\code blocks projet\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491601790 source:e:\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491601790 e:\projets4\console.h
+	<iostream>
+
+1492619176 source:e:\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492177154 e:\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620628 e:\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620628 source:e:\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620756 source:e:\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491605390 source:c:\users\keert\desktop\porrrrooror\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 c:\users\keert\desktop\porrrrooror\projets4\console.h
+	<iostream>
+
+1492704117 source:c:\users\keert\desktop\porrrrooror\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492703064 c:\users\keert\desktop\porrrrooror\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492703083 c:\users\keert\desktop\porrrrooror\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492703245 source:c:\users\keert\desktop\porrrrooror\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492703018 source:c:\users\keert\desktop\porrrrooror\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491601790 source:c:\users\alexandre\downloads\porrrrooror\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491601790 c:\users\alexandre\downloads\porrrrooror\projets4\console.h
+	<iostream>
+
+1492699645 source:c:\users\alexandre\downloads\porrrrooror\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492699464 c:\users\alexandre\downloads\porrrrooror\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492714404 c:\users\alexandre\downloads\porrrrooror\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492714404 source:c:\users\alexandre\downloads\porrrrooror\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492714330 source:c:\users\alexandre\downloads\porrrrooror\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
