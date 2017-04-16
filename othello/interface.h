@@ -36,11 +36,17 @@ public:
 
     // Methode
     void affichage_damier();
+    void ajouter(Coordonne ma_case);
     void affichage_pion();
+    bool blindage_ajout(Coordonne ma_case);
+    string getTour();
+    void aleatoire(Coordonne ma_case);
+    int verification(Coordonne ma_case);
     Coordonne curseur(); //methodes pour utiliser un curseur
     void menu_de_jeu();
     void affichage_regles();
-
+    void sauvegarder();
+    void charger();
 
     // Accesseurs
 

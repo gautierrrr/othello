@@ -12,6 +12,8 @@ int main()
     Coordonne ma_case;
     int tmp=1;
     int choix_menu;
+    int COMPT;
+    srand(time(NULL));
     do
     {
         // Menu principal
@@ -33,15 +35,53 @@ int main()
             pConsole->setColor(COLOR_GREEN);
             plateau.affichage_damier();
             plateau.menu_de_jeu();
+            std:cout << plateau.getTour()<<" "<<endl;
             do
             {
                 ///boucle de jeu
                 plateau.affichage_pion();//affiche les pions
                 ma_case = plateau.curseur(); // lance le curseur
+                if((ma_case.x==1000)&&(ma_case.y==1000))
+                {
+                    plateau.sauvegarder();
+                    break;
+                }
+                plateau.ajouter(ma_case); //ajoute un pion
+                COMPT=plateau.verification(ma_case);
+                if (COMPT==0)
+                {
+                    system("cls");
+                    cout<<"Joueur a gagne"<<endl;
+                }
+
              }
             while(tmp!=0);
             break;
         case '2':
+            system("cls");
+            pConsole->setColor(COLOR_GREEN);
+
+            plateau.affichage_damier();
+
+            do
+            {
+                ///boucle de jeu
+                plateau.affichage_pion();//affiche les pions
+                ma_case = plateau.curseur(); // lance le curseur
+                plateau.aleatoire(ma_case); //ajoute un pion
+                COMPT=plateau.verification(ma_case);
+
+                if (COMPT==0)
+                {
+                    system("cls");
+                    cout<<"Joueur a gagne"<<endl;
+                }
+
+
+
+
+            }
+            while(tmp!=0);
             break;
         case '3':
             break;
