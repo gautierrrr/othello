@@ -1,0 +1,359 @@
+# depslib dependency file v1.0
+1491605390 source:d:\code blocks projet\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 d:\code blocks projet\projets4\console.h
+	<iostream>
+
+1492878886 source:d:\code blocks projet\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491313377 d:\code blocks projet\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492624228 d:\code blocks projet\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492870937 source:d:\code blocks projet\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492783957 source:d:\code blocks projet\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491601790 source:e:\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491601790 e:\projets4\console.h
+	<iostream>
+
+1492619176 source:e:\projets4\main.cpp
+	"console.h"
+	"interface.h"
+
+1492177154 e:\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620628 e:\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620628 source:e:\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620756 source:e:\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491605390 source:c:\users\keert\desktop\vayne\projets4\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 c:\users\keert\desktop\vayne\projets4\console.h
+	<iostream>
+
+1492980523 source:c:\users\keert\desktop\vayne\projets4\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+	"time.h"
+
+1492971782 c:\users\keert\desktop\vayne\projets4\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492624228 c:\users\keert\desktop\vayne\projets4\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492982383 source:c:\users\keert\desktop\vayne\projets4\main.cpp
+	"console.h"
+	"interface.h"
+	"time.h"
+
+1492783957 source:c:\users\keert\desktop\vayne\projets4\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1491601790 source:c:\users\alexandre\downloads\rognon_murugesapillai_alby\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491601790 c:\users\alexandre\downloads\rognon_murugesapillai_alby\console.h
+	<iostream>
+
+1492978783 source:c:\users\alexandre\downloads\rognon_murugesapillai_alby\main.cpp
+	"console.h"
+	"interface.h"
+	"time.h"
+
+1492968182 c:\users\alexandre\downloads\rognon_murugesapillai_alby\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492620628 c:\users\alexandre\downloads\rognon_murugesapillai_alby\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1493304779 source:c:\users\alexandre\downloads\rognon_murugesapillai_alby\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1493304500 source:c:\users\alexandre\downloads\rognon_murugesapillai_alby\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+	"time.h"
+
+1491605390 source:c:\users\gautier\downloads\rognon_murugesapillai_alby\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 c:\users\gautier\downloads\rognon_murugesapillai_alby\console.h
+	<iostream>
+
+1493366081 source:c:\users\gautier\downloads\rognon_murugesapillai_alby\main.cpp
+	"console.h"
+	"interface.h"
+	"time.h"
+	"IA.h"
+
+1493366081 c:\users\gautier\downloads\rognon_murugesapillai_alby\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492624228 c:\users\gautier\downloads\rognon_murugesapillai_alby\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1493308380 source:c:\users\gautier\downloads\rognon_murugesapillai_alby\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1493364252 source:c:\users\gautier\downloads\rognon_murugesapillai_alby\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+	"time.h"
+
+1493364112 source:c:\users\gautier\downloads\rognon_murugesapillai_alby\ia.cpp
+	"IA.h"
+
+1493364112 c:\users\gautier\downloads\rognon_murugesapillai_alby\ia.h
+	<vector>
+	"interface.h"
+	"pions.h"
+	<string>
+
+1491605390 source:c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\console.cpp
+	"console.h"
+	<windows.h>
+	<conio.h>
+
+1491605390 c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\console.h
+	<iostream>
+
+1493364112 source:c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\ia.cpp
+	"IA.h"
+
+1493364112 c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\ia.h
+	<vector>
+	"interface.h"
+	"pions.h"
+	<string>
+
+1493366081 c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\interface.h
+	"console.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1492624228 c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\pions.h
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
+1493366224 source:c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\interface.cpp
+	"interface.h"
+	"pions.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+	"time.h"
+
+1493366081 source:c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\main.cpp
+	"console.h"
+	"interface.h"
+	"time.h"
+	"IA.h"
+
+1493308380 source:c:\users\gautier\desktop\projet othello\rognon_murugesapillai_alby\pions.cpp
+	"pions.h"
+	"console.h"
+	<windows.h>
+	<iostream>
+	<string>
+	<cstdlib>
+	<fstream>
+	<vector>
+	<conio.h>
+
